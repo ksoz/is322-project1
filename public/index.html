@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="index.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -39,5 +40,38 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <div name="nav_container" id="nav_container">
+      <nav class=nav>
+        <a class="active">Home</a>
+        <a class="active">Shop</a>
+        <a class="active">About</a>
+      </nav>
+    </div>
+    <div name="container" id="container">
+      <div class="filter">
+        <label for="orderBy">Order By</label>
+        <select id="orderBy" name="orderBy">
+          <option value="name">Name</option>
+          <option value="prod-id">Product ID</option>
+          <option value="stocked">In Stock</option>
+        </select>
+      </div>
+        <table id="product-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Product ID</th>
+              <th>Description</th>
+              <th>In Stock</th>
+            </tr>
+          </thead>
+          <tbody id="product-list">
+
+          </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="../src/product_list.js"></script>
   </body>
 </html>
