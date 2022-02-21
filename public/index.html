@@ -53,22 +53,27 @@
         <label for="orderBy">Order By</label>
         <select id="orderBy" name="orderBy">
           <option value="name">Name</option>
-          <option value="prod-id">Product ID</option>
-          <option value="stocked">In Stock</option>
+          <option value="_id">Product ID</option>
+        </select>
+        <label for="sortBy">Sort By</label>
+        <select id="sortBy" name="sortBy">
+          <option value="price">Price</option>
+          <option value="stocked_bool">In Stock</option>
         </select>
       </div>
-        <table id="product-table">
+        <table id="product-table" border="1">
           <thead>
             <tr>
               <th></th>
               <th>Name</th>
               <th>Product ID</th>
               <th>Description</th>
+              <th>Price</th>
               <th>In Stock</th>
             </tr>
           </thead>
           <tbody id="product-list">
-
+            
           </tbody>
         </table>
     </div>
