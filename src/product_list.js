@@ -3,11 +3,11 @@ console.log('checkpoint 1');
 
 // Our array of objects to hard code the product list
 var mockProducts = [
-    {_id: '123', name: 'Motherboard', description: '<img src="img/msi_mb.jpg" style="width:200px;height:200px">', stocked_bool: true, stocked: 'Yes', price: 59.99},
-    {_id: '456', name: 'CPU', description: '<img src="img/ryzen_cpu.jpg" style="width:200px;height:200px">', stocked_bool: true, stocked: 'Yes', price: 89.99},
-    {_id: '789', name: 'GPU', description: '<img src="img/msi-trio-10g-RTX-3080.jpeg" style="width:200px;height:200px">', stocked_bool: false, stocked: 'No', price: 109.99},
-    {_id: '012', name: 'Case', description: '<img src="img/corsair_case.png" style="width:200px;height:200px">', stocked_bool: true, stocked: 'Yes', price: 39.99},
-    {_id: '023', name: 'Cooler', description: '<img src="img/cpu_cooler.jpg" style="width:200px;height:200px">', stocked_bool: false, stocked: 'No', price: 29.99},
+    {_id: '123', name: 'Motherboard', description: '<img src="img/msi_mb.jpg" style="width:200px;height:200px"> A top grade motherboard! Bargain price!', stocked_bool: true, stocked: 'Yes', price: 59.99},
+    {_id: '456', name: 'CPU', description: '<img src="img/ryzen_cpu.jpg" style="width:200px;height:200px"> Time to upgrade from that old processor! A dozen cores! All the memory!', stocked_bool: true, stocked: 'Yes', price: 89.99},
+    {_id: '789', name: 'GPU', description: '<img src="img/msi-trio-10g-RTX-3080.jpeg" style="width:200px;height:200px"> It can run Crysis!', stocked_bool: false, stocked: 'No', price: 109.99},
+    {_id: '012', name: 'Case', description: '<img src="img/corsair_case.png" style="width:200px;height:200px"> Doesnt it just look so clean!?', stocked_bool: true, stocked: 'Yes', price: 39.99},
+    {_id: '023', name: 'Cooler', description: '<img src="img/cpu_cooler.jpg" style="width:200px;height:200px"> Elite cooler for the elite PC users.', stocked_bool: false, stocked: 'No', price: 29.99},
   ];
   
   function renderProducts(results) {
